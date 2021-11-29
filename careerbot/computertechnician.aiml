@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>computertechnician</pattern>
+        <template>You might enjoy a career as a Computer Technician! <br></br> <br></br> Computer Technicians use their hardware expertise to build, repair, and maintain computers, servers, and more.</template>
+    </category>
+</aiml>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>qa</pattern>
+        <template>You might enjoy a career in Quality Assurance! <br></br> <br></br> Quality Assurance is the field of testing software to make sure it works properly and becomes as bug-free as possible.</template>
+    </category>
+</aiml>

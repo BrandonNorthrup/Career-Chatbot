@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>techwriting</pattern>
+        <template>You might enjoy a career in Technical Writing! <br></br> <br></br> Technical Writers write articles, journals, and more about a multitude of things in the technology world. You could write about whatever you want as a freelance, or you can join a company and write about the company's interests!</template>
+    </category>
+</aiml>

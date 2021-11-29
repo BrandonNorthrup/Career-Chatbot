@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>projectmanager</pattern>
+        <template>You might enjoy a career in Project Management! <br></br> <br></br> Project Managers are the people who keep track of everything going on during a project's lifecycle, and they are responsible for keeping everyone in line to meet the project's goals.</template>
+    </category>
+</aiml>

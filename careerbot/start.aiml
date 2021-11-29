@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>start</pattern>
+        <template>Hello! To get started in your search for a career path, please click the button below: 
+            <button>
+                <text>Start</text>
+                <postback>programmingquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>hello</pattern>
+        <template><srai>start</srai></template>
+    </category>
+    
+    <category>
+        <pattern>hi</pattern>
+        <template><srai>start</srai></template>
+    </category>
+    
+    <category>
+        <pattern>hey</pattern>
+        <template><srai>start</srai></template>
+    </category>
+    
+    
+    <category>
+        <pattern>programmingquestion</pattern>
+        <template> Do you enjoy programming?
+            <button>
+                <text>Yes</text>
+                <postback>creativityquestion</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>problemsolvingquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>problemsolvingquestion</pattern>
+        <template> Do you enjoy problem solving? 
+            <button>
+                <text>Yes</text>
+                <postback>qaquestion</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>hardwarequestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>creativityquestion</pattern>
+        <template> Are you a creative person?
+            <button>
+                <text>Yes</text>
+                <postback>likegamesquestion</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cybersecurityquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>likegamesquestion</pattern>
+        <template> Do you enjoy video games?
+            <button>
+                <text>Yes</text>
+                <postback>videogamequestion</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>webdeveloper</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>hardwarequestion</pattern>
+        <template> Do you enjoy working with hardware?
+            <button>
+                <text>Yes</text>
+                <postback>computertechnician</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>projectmanagementquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>softwareengineerquestion</pattern>
+        <template> Do you enjoy designing projects?
+            <button>
+                <text>Yes</text>
+                <postback>softwareengineer</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>qaquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>cybersecurityquestion</pattern>
+        <template> Do you like the idea of keeping people and their information safe?
+            <button>
+                <text>Yes</text>
+                <postback>cybersecurity</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>softwareengineerquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>projectmanagementquestion</pattern>
+        <template> Do you enjoy managing people?
+            <button>
+                <text>Yes</text>
+                <postback>projectmanager</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>techwritingquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>qaquestion</pattern>
+        <template>Do you like to test things for quality?
+            <button>
+                <text>Yes</text>
+                <postback>qa</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>databasequestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>databasequestion</pattern>
+        <template>Do you enjoy working with databases, such as with SQL?
+            <button>
+                <text>Yes</text>
+                <postback>databaseadmin</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>techwritingquestion</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>techwritingquestion</pattern>
+        <template>Would you enjoy writing things, such as articles, about technology?
+            <button>
+                <text>Yes</text>
+                <postback>techwriting</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no cs career path</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>videogamequestion</pattern>
+        <template>Do you like the idea of working on a video game?
+            <button>
+                <text>Yes</text>
+                <postback>gamedev</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no cs career path</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>no cs career path</pattern>
+        <template>Sorry, but it seems that you may require a more personalized approach to find a career path in Computer Science. We recommend contacting a guidance counselor. If you would like to try again, click Restart.
+            <button>
+                <text>Restart</text>
+                <postback>start</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>

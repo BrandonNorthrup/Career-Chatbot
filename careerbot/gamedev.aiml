@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>gamedev</pattern>
+        <template>You might enjoy a career in Game Development! <br></br> <br></br> Game Developers are the people tasked with programming a game's mechanics, such as how the combat works, the way you can interact with other people, and a lot more!</template>
+    </category>
+</aiml>

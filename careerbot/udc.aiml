@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I do not have a response for that. To start at the beginning, please click Start.
+        <button>
+            <text>Start</text>
+            <postback>start</postback>
+        </button>
+    </template>
+  </category>
+</aiml>

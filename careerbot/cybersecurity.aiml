@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>cybersecurity</pattern>
+        <template>You might enjoy a career in Cyber Security! <br></br> <br></br> People working in Cyber Security use their expertise to protect people and their information from malicious software. There are many ways this is done, such as developing antivirus software.</template>
+    </category>
+</aiml>

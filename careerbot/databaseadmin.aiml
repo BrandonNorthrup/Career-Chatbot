@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>databaseadmin</pattern>
+        <template>You might enjoy a career in Database Administration! <br></br> <br></br> Database Administrators are responsible for developing databases, as well as using existing databases to store and organize data.</template>
+    </category>
+</aiml>

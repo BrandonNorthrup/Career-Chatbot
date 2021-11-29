@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>softwareengineer</pattern>
+        <template>You might enjoy a career in Software Engineering! <br></br> <br></br> Software Engineers are the people who both design and code applications. It involves heavy use of mathematics and analysis, which are used to meet the customer's needs.</template>
+    </category>
+</aiml>
